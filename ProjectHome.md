@@ -1,0 +1,3 @@
+This is code and HW for a Ethernet enabled weather station that uploads environment data to Weather Underground .com in rapid fire mode (15sec).
+
+The controller is based on a pic 18F1680 from Modtronix, i.e. SBC68ec or SBC65. The software is based on their V3.1 firmware, modified to run on the SBC68 platform and with additions to service the various sensors as well as to upload data to the wunderground.com host via the HTTP GET protocol.
